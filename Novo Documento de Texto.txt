@@ -1,0 +1,18 @@
+Para configurar o seu git, fizemos o seguinte no terminal GitBash:
+`git config --global user.name "seu nome"`
+`git config --global user.email seu-email`
+
+Depois:
+`git init`
+`git add --all`
+`git commit -m “Nome do commit”`
+`git remote add origin link-https-do-projeto` (esse link fica no repositório que você criou no GitHub)
+`git push origin master`
+
+Para mexer com o Sass, fizemos também no terminal GitBash:
+`npm init -y`
+`npm install sass`
+Vai surgir uma pasta chamada package.json. Nessa pasta, colocamos em baixo de "scripts" o seguinte comando: `"sass": "sass --watch assets/scss/main.scss:assets/css/main.css"`
+
+Depois:
+`npm run sass`
